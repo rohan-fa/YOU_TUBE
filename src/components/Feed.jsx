@@ -1,12 +1,15 @@
 import { useState, useEffect } from "react";
 import { Box, Stack, Typography} from '@mui/material';
 
-import { SideBar, Videos }from "./components";
+import { SideBar, Videos } from "./components";
+import { fetchFromAPI } from "../Utils/fetchFromAPI";
 
 
 
 
 const Feed = () => {
+
+  useEffect(())
   return (  
      <Stack sx={{ flexDirection: { sx: 'column', md: 'row'}}}>
        <Box sx={{ height: { sx: 'auto', md: '92vh'}, borderRight: '1px solid #3d3d3d', px: { sx: 0, md: 2}}}>
@@ -29,3 +32,4 @@ const Feed = () => {
 }
 
 export default Feed
+
