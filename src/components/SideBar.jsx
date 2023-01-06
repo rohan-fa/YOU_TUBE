@@ -1,9 +1,9 @@
 import { Stack } from '@mui/material';
 import { categories } from '../Utils/constants';
 
-const selctedCategory = 'New';
 
-const SideBar = () => (
+
+const SideBar = ({selectedCategory, setSelectedCategory}) => (
     <Stack 
     direction='column'
     sx={{
@@ -15,13 +15,14 @@ const SideBar = () => (
         {categories.map((category) => (
             <button
             className='category-btn'
+            onClick={() => setSelectedCategory(category.name)}//we want to set selectedCategory to be equal to category name.
             style={{
-                background: category.name === selctedCategory && '#FC1503', color: 'white',
+                background: category.name === selectedCategory && '#FC1503', color: 'white',
             }} 
             key={category.name}
             >
-                <span style={{color: category.name === selctedCategory ? 'white' : 'red', marginRight: '15px'}}>{category.icon}</span>
-                <span style={{opacity: category.name === selctedCategory ? '1' : '0.8' }}>{category.name}</span>
+                <span style={{color: category.name === selectedCategory ? 'white' : 'red', marginRight: '15px'}}>{category.icon}</span>
+                <span style={{opacity: category.name === selectedCategory ? '1' : '0.8' }}>{category.name}</span>
             </button>
         ))};
     </Stack >
