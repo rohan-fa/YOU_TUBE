@@ -3,10 +3,18 @@ import { CheckCircle } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
 import { demoProfilePicture } from '../Utils/constants';
 
-const ChannelCard = ({channelDetail}) => (
+const ChannelCard = ({channelDetail, marginTop}) => (
     <Box
       sx={{ 
-        boxShadow: 'none', borderRadius: '20px', display: 'flex', justifyContent: 'center', alignItems: 'center', width: { xs: '356px', md: '320px'}, height: '326px', margin: 'auto'
+        boxShadow: 'none', 
+        borderRadius: '20px', 
+        display: 'flex', 
+        justifyContent: 'center', 
+        alignItems: 'center', 
+        width: { xs: '356px', md: '320px'}, 
+        height: '326px', 
+        margin: 'auto', 
+        marginTop: marginTop,
     }}
 > 
        <Link to={`/channel/${channelDetail?.id?.channelId}`}>  {/* we want to link the thumbnail so that anyone can click and go inside of it, inside of there will be card content */}
@@ -23,7 +31,7 @@ const ChannelCard = ({channelDetail}) => (
                 {channelDetail?.statistics?.subscriberCount && (    
                    <Typography>
                         {parseInt(channelDetail?.statistics?.subscriberCount).toLocaleString()} Subscriber    {/* what parseInt method does? often time we get the value from quaryString,come from a form filled, come form somewhere user types place out, that value could be in json as well,data file or some quotation marks around the numbers,you need to deal with it as if it a number,but the value you are getting is string      */}
-                   </Typography> 
+                   </Typography>  
                 )}          {/* {parseInt(channelDetail?.statistics?.subscriberCount).toLocaleString()} this is going to give us human readable number something like 30,342 */}
             </CardContent>     
        </Link> 
