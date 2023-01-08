@@ -6,10 +6,10 @@ import { Navbar, Feed, VideoDetail, ChannelDetail, SearchFeed } from './componen
  function App() {
     return (
         <BrowserRouter>
-            <Box sx={{ backgroundColor: '#000' }}>                {/*  mui sx props of mt,mr =2, color: */}
+            <Box sx={{ backgroundColor: '#000' }}>             
                 <Navbar />
-                <Routes>                 {/* built in component by react router-dom,inside of it we can place individual routes components */}
-                    <Route path='/' exact element={<Feed />} />    {/* element which going to render and is going to be a feed component*/}
+                <Routes>                 
+                    <Route path='/' exact element={<Feed />} />    
                     <Route path='/video/:id' element={<VideoDetail />} />
                     <Route path='/channel/:id' element={<ChannelDetail />} />
                     <Route path='/search/:searchTerm' element={<SearchFeed />} />
