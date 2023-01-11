@@ -8,6 +8,7 @@ A YouTube Clone using `React` and `Material UI`
 
 ![Screen Shot 2023-01-11 at 5 47 14 pm](https://user-images.githubusercontent.com/107793873/211736884-1d51e62a-94b6-445f-8110-7fcc34b11820.png)
 
+![Screen Shot 2023-01-11 at 6 40 06 pm](https://user-images.githubusercontent.com/107793873/211746297-446a4caf-7fcf-4c20-9629-d7448cc6cdc0.png)
 
 # What does this app do? 
 * It is a clone of YouTube HomePage and SearchPage.
