@@ -12,7 +12,7 @@ A YouTube Clone using `React` and `Material UI`
 # What does this app do? 
 * It is a clone of YouTube HomePage and SearchPage.
 * HomePage displays the most popular videos of the selected country by querying data from the YouTube Rapid  API, 50 results are displayed on the SearchPage.
-* Video page has side videos, likes, views, channel name.
+* Channel page is well designed with thumbnail, videos, playlist and subscription details. Video page has side videos, likes, views, channel name.
 
 # About the project
 
