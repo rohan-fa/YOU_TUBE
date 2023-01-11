@@ -17,7 +17,7 @@ A YouTube Clone using `React` and `Material UI`
 
 # About the project
 
-* It is a youtube clone application with material-ui and styled-components learning project. It has a video feed section, custom categories, responsive channel, and video cards.
+* It is a youtube clone application with React, material-ui and styled-components learning project. It has a video feed section, custom categories, responsive channel, and video cards.
 
 *  Channel pages and most importantly video pages where the videos can be played straight from the application.
 
