@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# YouTube Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A YouTube Clone using `React` and `Material UI`
 
-## Available Scripts
+# Clone Screenshoots
 
-In the project directory, you can run:
+![Screen Shot 2023-01-11 at 5 26 44 pm](https://user-images.githubusercontent.com/107793873/211733755-fc96afe7-435b-4ba3-81e6-c7ed58ba8b5b.png)
 
-### `npm start`
+![Screen Shot 2023-01-11 at 5 47 14 pm](https://user-images.githubusercontent.com/107793873/211736884-1d51e62a-94b6-445f-8110-7fcc34b11820.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# What does this app do? 
+* It is a clone of YouTube HomePage and SearchPage.
+* HomePage displays the most popular videos of the selected country by querying data from the YouTube Rapid  API, 50 results are displayed on the SearchPage.
+* Video page has side videos, likes, views, channel name.
 
-### `npm test`
+# About the project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* It is a youtube clone application with material-ui and styled-components learning project. It has a video feed section, custom categories, responsive channel, and video cards.
 
-### `npm run build`
+*  Channel pages and most importantly video pages where the videos can be played straight from the application.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Technologies
+* [Rapid API](https://rapidapi.com/hub)
+* [React](https://reactjs.org/)
+* [React Router](https://reactrouter.com/en/main)
+* [Material-UI v5](https://mui.com/material-ui/migration/migration-v4/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#  Source code and live site:
+* [Live site hosted on Netlify](https://watch-youtube-with-me.netlify.app/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* [Source code on Github](https://github.com/rohan-fa/YOU_TUBE)

@@ -1,4 +1,4 @@
-import { useState, useEffct } from 'react'; 
+import { useState, useEffect } from 'react'; 
 import { useParams } from 'react-router-dom';
 import {  Box } from '@mui/material';
 
@@ -12,7 +12,7 @@ const ChannelDetail = () => {    {/* lets start everything by wraping in a box w
   const { id } = useParams(); {/* as we can see the id, now can useEffect hook that going to render as soon as our component opens. that useEffect re render as our id changes, so that we can pass the id as dependency array [id] */}
   
   console.log(channelDetail);
-  useEffct(() => {
+  useEffect(() => {
     fetchFromAPI(`channels?part=snippet&id=${id}`)                      
       .then((data) => setchannelDetail(data?.items[0]));   {/* we want to get the data and then the only thing we wanna do is to set the channel detail page, so lets useState for that,setchannelDetail it going be data?.items[0] and then the first channel in the list   */}
     

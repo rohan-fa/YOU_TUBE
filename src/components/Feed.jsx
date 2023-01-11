@@ -8,7 +8,7 @@ import { fetchFromAPI } from "../Utils/fetchFromAPI";
 
 
 const Feed = () => {
-  const [selectedCategory, setSelectedCategory] = useState('New');//sideBar state changing
+  const [selectedCategory, setSelectedCategory] = useState('New');//sideBar state changing  
   const [videos, setVideos] = useState([]);
 
   useEffect(() => {
@@ -29,7 +29,7 @@ const Feed = () => {
         </Typography>
        </Box>
        <Box p={2} sx={{overflowY: 'auto', height: '90vh', flex: 2}}>
-        <Typography variant='h4' fontweight='bold' mb={2} sx={{
+        <Typography variant='h4' fontwßeight='bold' mb={2} sx={{
           color: 'white'
         }}>
           {selectedCategory}<span style={{color: '#F31503'}}>Videos</span>
